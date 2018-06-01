@@ -1,37 +1,53 @@
-*{
+* {
     font-family: 'Kavivanar';
     font-size: 16px;
 }
 
-img{
+img {
     width: 100%;
     max-width: 900px;
     height: auto;
 }
-form{
-    border:1px solid gray;
-    padding:30px 20px;
+
+.bottone {
+    border: 1px solid rgb(129, 6, 129);
+    background-color: rgb(218, 10, 79);
+    transition: all 4s ease-in-out;
+}
+
+.bottone:hover {
+    color: white;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+form {
+    border: 1px solid gray;
 }
 
 .formItem {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
-form label{
+form label {
     width: 20%;
     display: inline-block;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .box {
-    border-color:blue;
-    border-style:dotted;
-    display:inline-block;
-    width:30%;
-    padding:10px;
+    border-color: blue;
+    border-style: dotted;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
     margin: auto;
     border: 2px solid red;
-    border-top-color:springgreen;
+    border-top-color: springgreen;
+}
+
+body {
+    background-image: url(pink2.jpg)
 }
 
 ul,
@@ -39,6 +55,5 @@ li {
     display: inline-block;
     width: 30%;
     padding: 10px;
-    border: 1px solid
-    gray;
+    border: 1px solid gray;
 }
